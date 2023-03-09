@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "squid-error": "file:libraries/squid-error-nodejs",
+    "squid-logger": "file:libraries/squid-logger-nodejs",
+    "squid-metrics": "file:libraries/squid-metrics-nodejs",
+    "squid-tracer": "file:libraries/squid-tracer-nodejs"
+  }
+}
