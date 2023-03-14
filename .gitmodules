@@ -1,6 +1,3 @@
-[submodule "libraries/squid-error-nodejs"]
-	path = libraries/squid-error-nodejs
-	url = git@github.com:squidit/squid-error-nodejs.git
 [submodule "libraries/squid-logger-nodejs"]
 	path = libraries/squid-logger-nodejs
 	url = git@github.com:squidit/squid-logger-nodejs.git
