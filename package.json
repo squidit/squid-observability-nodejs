@@ -1,16 +1,16 @@
 {
-  "name": "squid-obervability",
+  "name": "squid-observability",
   "version": "1.0.0",
   "description": "Lib que centraliza as apis de observabilidade da Squid e às inicializa conforme necessidade do usuário",
-  "main": "squid_obervability.js",
+  "main": "squid_observability.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/squidit/squid-obervability.git"
+    "url": "git+https://github.com/squidit/squid-observability.git"
   },
-  "author": "Filipe Dircksen",
+  "author": "Filipe Dircksen & Henrique Martini",
   "license": "ISC",
   "dependencies": {
     "squid-error": "file:libraries/squid-error-nodejs",
@@ -20,7 +20,7 @@
     "squid-tracer": "file:libraries/squid-tracer-nodejs"
   },
   "bugs": {
-    "url": "https://github.com/squidit/squid-obervability/issues"
+    "url": "https://github.com/squidit/squid-observability/issues"
   },
-  "homepage": "https://github.com/squidit/squid-obervability#readme"
+  "homepage": "https://github.com/squidit/squid-observability#readme"
 }

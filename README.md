@@ -1,4 +1,4 @@
-# Squi-Observability
+# Squid-Observability
 
 Biblioteca que centralizada a configuração inicial das bibliotecas de obserbavilidade da Squid.
 
