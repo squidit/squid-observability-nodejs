@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/squidit/squid-observability.git"
+    "url": "git+https://github.com/squidit/squid-observability-nodejs.git"
   },
   "author": "Filipe Dircksen & Henrique Martini",
   "license": "ISC",
@@ -16,11 +16,11 @@
     "squid-error": "file:libraries/squid-error-nodejs",
     "squid-logger": "file:libraries/squid-logger-nodejs",
     "squid-metrics": "file:libraries/squid-metrics-nodejs",
-    "squid-observability-configs": "file:libraries/squid-observability-configs",
+    "squid-observability-configs": "file:libraries/squid-observability-configs-nodejs",
     "squid-tracer": "file:libraries/squid-tracer-nodejs"
   },
   "bugs": {
-    "url": "https://github.com/squidit/squid-observability/issues"
+    "url": "https://github.com/squidit/squid-observability-nodejs/issues"
   },
-  "homepage": "https://github.com/squidit/squid-observability#readme"
+  "homepage": "https://github.com/squidit/squid-observability-nodejs#readme"
 }
