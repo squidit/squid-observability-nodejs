@@ -13,7 +13,6 @@
   "author": "Filipe Dircksen & Henrique Martini",
   "license": "ISC",
   "dependencies": {
-    "squid-error": "file:libraries/squid-error-nodejs",
     "squid-logger": "file:libraries/squid-logger-nodejs",
     "squid-metrics": "file:libraries/squid-metrics-nodejs",
     "squid-observability-configs": "file:libraries/squid-observability-configs-nodejs",
