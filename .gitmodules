@@ -10,3 +10,6 @@
 [submodule "libraries/squid-observability-configs-nodejs"]
 	path = libraries/squid-observability-configs-nodejs
 	url = git@github.com:squidit/squid-observability-configs-nodejs.git
+[submodule "libraries/squid-error-nodejs"]
+	path = libraries/squid-error-nodejs
+	url = git@github.com:squidit/squid-error-nodejs.git
