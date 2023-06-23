@@ -4,7 +4,7 @@
 /// <reference path="libraries/squid-observability-configs-nodejs/squid_observability_configs.d.ts"/>
 /// <reference path="libraries/squid-error-nodejs/squid_error.d.ts"/>
 
-export declare module 'squid-observability' {
+declare module 'squid-observability' {
   import * as SquidTracerType from 'squid-tracer';
   import * as SquidMetricsType from 'squid-metrics';
   import * as SquidLoggerType from 'squid-logger';
