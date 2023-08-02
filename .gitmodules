@@ -1,15 +1,15 @@
-[submodule "libraries/squid-logger-nodejs"]
-	path = libraries/squid-logger-nodejs
-	url = git@github.com:squidit/squid-logger-nodejs.git
 [submodule "libraries/squid-tracer-nodejs"]
 	path = libraries/squid-tracer-nodejs
-	url = git@github.com:squidit/squid-tracer-nodejs.git
-[submodule "libraries/squid-metrics-nodejs"]
-	path = libraries/squid-metrics-nodejs
-	url = git@github.com:squidit/squid-metrics-nodejs.git
-[submodule "libraries/squid-observability-configs-nodejs"]
-	path = libraries/squid-observability-configs-nodejs
-	url = git@github.com:squidit/squid-observability-configs-nodejs.git
+	url = git@github.com:squidit/squid-tracer-nodejs
 [submodule "libraries/squid-error-nodejs"]
 	path = libraries/squid-error-nodejs
-	url = git@github.com:squidit/squid-error-nodejs.git
+	url = git@github.com:squidit/squid-error-nodejs
+[submodule "libraries/squid-logger-nodejs"]
+	path = libraries/squid-logger-nodejs
+	url = git@github.com:squidit/squid-logger-nodejs
+[submodule "libraries/squid-metrics-nodejs"]
+	path = libraries/squid-metrics-nodejs
+	url = git@github.com:squidit/squid-metrics-nodejs
+[submodule "libraries/squid-observability-configs-nodejs"]
+	path = libraries/squid-observability-configs-nodejs
+	url = git@github.com:squidit/squid-observability-configs-nodejs
