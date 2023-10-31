@@ -9,7 +9,7 @@ declare module 'squid-observability' {
   import * as SquidMetricsType from 'squid-metrics';
   import * as SquidLoggerType from 'squid-logger';
   import { SquidObservabilityConfigs as SquidObservabilityConfigsType} from 'squid-observability-configs';
-  import { SquidError as SquidErrorType, SquidHttpError as SquidHttpErrorType } from 'squid-error';
+  import { SquidError as SquidErrorType, SquidHttpError as SquidHttpErrorType } from 'squid_error';
 
   const SquidTracer: typeof SquidTracerType;
   const SquidMetrics: typeof SquidMetricsType;
