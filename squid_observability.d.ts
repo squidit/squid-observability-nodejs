@@ -5,16 +5,9 @@
 /// <reference path="libraries/squid-error-nodejs/squid_error.d.ts"/>
 
 declare module 'squid-observability' {
-  import * as SquidTracerType from 'squid-tracer';
-  import * as SquidMetricsType from 'squid-metrics';
-  import * as SquidLoggerType from 'squid-logger';
-  import { SquidObservabilityConfigs as SquidObservabilityConfigsType} from 'squid-observability-configs';
-  import { SquidError as SquidErrorType, SquidHttpError as SquidHttpErrorType } from 'squid_error';
-
-  const SquidTracer: typeof SquidTracerType;
-  const SquidMetrics: typeof SquidMetricsType;
-  const SquidLogger: typeof SquidLoggerType;
-  const SquidObservabilityConfigs: typeof SquidObservabilityConfigsType;
-  const SquidError: typeof SquidErrorType;
-  const SquidHttpError: typeof SquidHttpErrorType;
+  export { SquidError, SquidHttpError } from 'squid_error';
+  export { SquidObservabilityConfigs } from 'squid-observability-configs';
+  export * as SquidLogger from 'squid-logger';
+  export * as SquidMetrics from 'squid-metrics';
+  export * as SquidTracer from 'squid-tracer';
 }
