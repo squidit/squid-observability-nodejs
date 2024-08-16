@@ -8,6 +8,6 @@ declare module 'squid-observability' {
   export { SquidError, SquidHttpError } from 'squid_error';
   export { SquidObservabilityConfigs } from 'squid-observability-configs';
   export * as SquidLogger from 'squid-logger';
-  export * as SquidMetrics from 'squid-metrics';
+  export * as SquidMetrics from 'squid_metrics';
   export * as SquidTracer from 'squid-tracer';
 }
