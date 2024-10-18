@@ -6,7 +6,8 @@
 
 declare module 'squid-observability' {
   export { SquidError, SquidHttpError } from 'squid_error';
-  export { SquidObservabilityConfigs } from 'squid-observability-configs';
+  import SquidObservabilityConfigs = require('squid_observability_configs');
+  export { SquidObservabilityConfigs };
   export * as SquidLogger from 'squid-logger';
   export * as SquidMetrics from 'squid_metrics';
   export * as SquidTracer from 'squid-tracer';
